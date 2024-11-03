@@ -1,6 +1,6 @@
 function calculateSurface() {
   const length = document.getElementById('surfaceInput').value;
-  fetch('http://52.23.185.228:8080/function/javascript-fn', {
+  fetch('http://52.23.239.207:8080/function/luas-persegi', {
     body: JSON.stringify({ panjang: length }),
     method: 'POST',
   })
